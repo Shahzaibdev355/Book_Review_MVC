@@ -1,1 +1,1 @@
-# coding-project-template
+# Online Book Store MVC Architecture
