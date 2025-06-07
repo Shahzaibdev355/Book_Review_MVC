@@ -5,6 +5,9 @@ import * as reviewControllers from "../controllers/review.js";
 const router = Router();
 
 // registered users
+
+// authenticate middle ware
+
 router.put("/books/:id/reviews", authenticate, reviewControllers.addReview);
 router.delete("/books/:id/reviews", authenticate, reviewControllers.deleteReview);
 
